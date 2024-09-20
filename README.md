@@ -1,38 +1,29 @@
-# create-svelte
+# Projects
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A group of projects built for my own purposes. This app is hosted on Vercel and uses a Supabase Postgres db
 
-## Creating a project
+## Articles
 
-If you're seeing this, you've probably already done this step. Congrats!
+Technical articles with my personal take on specific problems
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Quiz
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Every Thursday I go to a pub quiz. The layout of the quiz is quite similar from week to week so we usually do a bit of prep work
 
-## Developing
+## Golf
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Every year I go on a golf trip with a bunch of my mates. App is used to keep track of scores (both individually and in teams)
 
-```bash
-npm run dev
+# Run the app
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+Install all dependencies
 
 ```bash
-npm run build
+bun install
 ```
 
-You can preview the production build with `npm run preview`.
+Run & open the application
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+bun run dev -- --open
+```
